@@ -299,7 +299,7 @@ if __name__ == '__main__':
     parser.add_argument('--train_lr', type=float, default=1e-3)
     parser.add_argument('--pretrain_lr', type=float, default=1e-3)
 
-    parser.add_argument('--emb_dim', type=int, default=128)
+    parser.add_argument('--emb_dim', type=int, default=64)
     parser.add_argument('--depth', type=int, default=3)
     parser.add_argument('--masking_ratio', type=float, default=0.35)
     parser.add_argument('--dropout_rate', type=float, default=0.15)
